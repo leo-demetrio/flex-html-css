@@ -8,7 +8,7 @@ ul{
     margin: 0;
     padding: 0;
 }
-ul li a {
+a {
     text-decoration: none;
 }
 .flex-container {
@@ -16,9 +16,6 @@ ul li a {
     max-width: 992px;
     margin: auto;
     width: 100%;
-}
-a {
-    text-decoration: none;
 }
 div img {
     display: block;
@@ -78,7 +75,7 @@ header .menu {
     display: flex;
     color: #122A57;
     font-size: 32px;
-    margin-bottom: 10px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 .who-us-text {
@@ -96,3 +93,52 @@ header .menu {
     margin-bottom: 10px;
     width: 90%;
 }
+.who-us img {
+    min-width: 420px;
+}
+.container-extern {
+    background-color: #122A57;
+    width: 100%;
+}
+
+#services {
+    flex-direction: column;
+    padding: 100px 0 150px;
+    margin-bottom: 200px;
+}
+#services h2 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.list-services{
+    display: flex;
+    justify-content: space-between;
+}
+.item-service {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
+.item-service img {
+    width: 80%;
+    margin: auto;
+}
+.item-service p {
+    margin-top: 20px;
+    color: #fff;
+}
+.item-service a {
+    display: block;
+    width: 170px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin: 20px 7px 20px;
+    text-align: center;
+    padding: 5px 8px;
+    font-size: 14px;
+    color: #122A57;
+}
+
+
+
