@@ -206,4 +206,13 @@ header .menu {
     margin-right: 5px;
     margin-top: 10px;
 }
-
+footer {
+    background-color: #122A57;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+footer .footer {
+    justify-content: space-between;
+}
